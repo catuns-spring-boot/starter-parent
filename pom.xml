@@ -12,6 +12,7 @@
     <groupId>xyz.catuns.boot</groupId>
     <artifactId>catuns-spring-boot-starter-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
     <name>catuns-spring-boot-starter-parent</name>
     <description>catuns-spring-boot-starter-parent</description>
     <packaging>pom</packaging>
@@ -144,4 +145,12 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>Devin Catuns' Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/dcat23/catuns-spring-boot-starter-parent</url>
+        </repository>
+    </distributionManagement>
 </project>
