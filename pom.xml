@@ -149,8 +149,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>Devin Catuns' Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/dcat23/catuns-spring-boot-starter-parent</url>
+            <name>Devin Catuns' Spring Boot Maven Packages</name>
+            <url>https://maven.pkg.github.com/catuns-spring-boot/starter-parent</url>
         </repository>
     </distributionManagement>
 </project>
